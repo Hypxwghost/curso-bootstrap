@@ -81,7 +81,7 @@ $( document ).ready(function() {
   
     });
 
-// iniciando loaders quando a usuário chegar no elemento
+  // iniciando loaders quando a usuário chegar no elemento
   let dataAreaOffset = $('#data-area').offset();
   // stop serve para a animação não carregar mais que uma vez
   let stop = 0;
@@ -102,7 +102,6 @@ $( document ).ready(function() {
   });
 
   // Parallax
-
   // setTimeout serve para carregar primeiro as imagens
   setTimeout(function() {
     $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
