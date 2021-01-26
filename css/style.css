@@ -31,6 +31,7 @@ header,
 
 #logo {
   width: 75px;
+  margin-left: 20px;
 }
 
 .navbar-brand {
@@ -44,6 +45,7 @@ header,
 
 #navbar-links a {
   color: #fff;
+  margin-right: 20px;
 }
 
 #navbar-links a:hover {
